@@ -96,7 +96,7 @@ const Game = () => {
   }
 
   const startGame = () => {
-    console.log("startGame====");
+    console.log("===startGame====");
     const gameState = sessionStorage.getItem('gameState');
     if (gameState) {
       const state = JSON.parse(gameState);
