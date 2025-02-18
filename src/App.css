@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: white;
+  border-radius: 10px; /* Slightly rounded corners */
+  padding: 20px; /* Equal padding on all sides */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+  text-align: center; /* Center-align the content*/
+  width: fit-content;
+}
